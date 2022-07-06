@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cosmos Testnets</title>
+        <script src="index.js"></script>
+    </head>
+    <body>
+        <h1>Add Cosmos Testnets</h1>
+        <table>
+            <tr>
+                <th>Testnet</th>
+                <th>Add to Keplr</th>
+                <th>Faucet</th>
+            </tr>
+
+            <!-- SN Pulsar -->
+            <tr>
+                <td>Pulsar-2 (Secret Network)</td>
+                <td><button onclick="addPulsarTrivium()">Add</button></td>
+                <td><a href="https://faucet.secrettestnet.io/">Faucet</a></td>
+            </tr>
+
+            <!-- Cosmos Hub Theta -->
+            <tr>
+                <td>Theta-v7 (Cosmos Hub)</td>
+                <td><button onclick="addCosmosTheta()">Add</button></td>
+                <td><a href="https://discord.com/channels/669268347736686612/953697793476821092/994275433392644128">Faucet (Discord)</a></td>
+            </tr>
+
+            <tr>
+                <td>Lisbon-1 (Axelar)</td>
+                <td><button onclick="addAxelarLisbon()">Add</button></td>
+                <td><a href="https://faucet.testnet.axelar.dev/">Faucet</a></td>
+            </tr>
+        </table>
+    </body>
+</html>
+
+<style>
+    th, td {
+        border: 1px solid;
+        padding: 6px 10px;
+    }
+    table {
+        border-width: 1px;
+        border-collapse: collapse;
+    }
+</style>
